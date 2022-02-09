@@ -12,3 +12,4 @@ sudo apt install phpmyadmin -y
 sudo phpenmod mysqli
 sudo service apache2 restart
 sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+sudo apt install certbot python3-certbot-apache
